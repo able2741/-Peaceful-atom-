@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peaceful Atom</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0b3d91">
+</head>
+<body>
+
+  <header>
+    <div class="logo">⚛️</div>
+    <h1>Peaceful Atom</h1>
+    <p>Exploring the positive uses of nuclear technology</p>
+    <p class="credit">By God'sable K Isaac</p>
+    <button id="theme-toggle">🌙 Dark Mode</button>
+  </header>
+
+  <nav>
+    <a href="#intro">Intro</a>
+    <a href="#history">History</a>
+    <a href="#energy">Energy</a>
+    <a href="#agriculture">Agriculture</a>
+    <a href="#industry">Industry</a>
+    <a href="#medicine">Medicine</a>
+    <a href="#safety">Safety</a>
+    <a href="#environment">Environment</a>
+    <a href="#quiz">Quiz</a>
+    <a href="#funzone">Funzone</a>
+    <a href="#conclusion">Conclusion</a>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <h2>👋 What is Nuclear Technology?</h2>
+      <p>
+        When people hear the word "nuclear," they often think of danger or weapons.
+        But nuclear technology is really just about understanding and using the energy
+        stored inside tiny atoms — the building blocks of everything around us.
+      </p>
+      <p>
+        Just like fire can cook your food or burn down a house depending on how it's used,
+        nuclear science can be used carefully and responsibly to help people. Today, it
+        plays a quiet but powerful role in our everyday lives — helping doctors diagnose
+        illnesses, generating clean electricity, protecting crops, and even preserving
+        food for longer.
+      </p>
+      <p>
+        This app, <strong>Peaceful Atom</strong>, was created to show the other side of
+        nuclear technology — the side that heals, powers, and protects — so you can
+        separate fear from facts and understand the real story behind the atom. ⚛️
+      </p>
+    </section>
+    <section id="medicine">
+      <h2>🏥 Medicine</h2>
+      <p>Nuclear technology helps diagnose and treat diseases. For example, Tc-99m is used in imaging to see how organs are functioning, helping doctors detect problems early.</p>
+    </section>
+
+    <section id="energy">
+      <h2>⚡ Energy</h2>
+      <img src="images/energy.jpg.jpg" alt="Nuclear Power Plant at Belleville-sur-Loiress">
+      <p>Nuclear power plants generate large amounts of electricity without burning fossil fuels, producing far less carbon dioxide than coal or gas plants.</p>
+    </section>
+
+    <section id="agriculture">
+      <h2>🌱 Agriculture</h2>
+      <p>Radiation is used to control pests, preserve food longer, and develop better crop varieties — helping farmers and reducing food waste.</p>
+    </section>
+
+    <section id="industry">
+      <h2>🏭 Industry</h2>
+      <p>Industrial radiography uses radiation to inspect welds, pipelines, and structures for defects without taking them apart — keeping infrastructure safe.</p>
+    </section>
+
+    <section id="history">
+      <h2>📜 History</h2>
+      <p>Since the "Atoms for Peace" initiative in the 1950s, countries worldwide have used nuclear science for healthcare, energy, and research — not just weapons.</p>
+    
+    Nuclear technology is nothing but of many positive uses in the world </section>
+
+    <section id="safety">
+      <h2>🛡️ Safety</h2>
+      <p>Radiation use is carefully controlled using principles like ALARA (As Low As Reasonably Achievable) to protect workers, patients, and the public.</p>
+    </section>
+    <section id="environment">
+      <h2>🌳 Environment</h2>
+      <p>
+        Nuclear technology also plays a quiet role in protecting our environment.
+        Scientists use radioactive tracers to study water pollution, track how
+        pollutants move through rivers and soil, and monitor climate change by
+        analyzing ice cores and ocean sediments.
+      </p>
+      <p>
+        Nuclear power itself produces electricity without releasing carbon dioxide
+        or air pollutants during operation — making it one of the lowest-carbon
+        energy sources available, helping fight climate change alongside solar and wind.
+      </p>
+      <p>
+        Isotope techniques are even used to study and protect endangered wildlife,
+        helping researchers understand animal migration and population health
+        without causing harm.
+      </p>
+    </section>
+    <section id="quiz">
+      <h2>🧠 Myth or Fact?</h2>
+      <div id="quiz-box">
+        <p id="quiz-question">Loading question...</p>
+        <button onclick="answerQuiz(true)">Fact</button>
+        <button onclick="answerQuiz(false)">Myth</button>
+        <p id="quiz-feedback"></p>
+        <button id="next-btn" onclick="nextQuestion()" style="display:none;">Next Question</button>
+        <p id="quiz-score"></p>
+      </div>
+    </section><section id="funzone">
+      <h2>😂 Fun Zone</h2>
+      <div id="fun-box">
+        <p id="fun-question">Loading question...</p>
+        <button onclick="answerFun(true)">True</button>
+        <button onclick="answerFun(false)">False</button>
+        <p id="fun-feedback"></p>
+        <button id="fun-next-btn" onclick="nextFunQuestion()" style="display:none;">Next Question</button>
+        <p id="fun-score"></p>
+      </div>
+    </section>
+    <section id="conclusion">
+      <h2>🌍 Final Thoughts</h2>
+      <p>
+        Nuclear technology is not something to fear blindly, nor something to use carelessly.
+        Like any powerful tool, it deserves respect, understanding, and responsibility.
+        The same atom that can cause harm in the wrong hands has also saved countless lives
+        through medicine, lit up homes through clean energy, and protected crops that feed
+        families across the world.
+      </p>
+      <p>
+        The difference is not the atom itself — it's the knowledge, intention, and safety
+        behind how it's used. That's the real lesson of the "Peaceful Atom."
+      </p>
+      <p>
+        So next time someone mentions nuclear technology, pause before reacting with fear.
+        Ask questions. Look for facts. Share what you've learned here with a friend or
+        classmate. The more people understand, the less room there is for myths to spread —
+        and the more we can appreciate science as a tool for good.
+      </p>
+      <p><strong>Stay curious, stay informed, and help others see the atom for what it truly can be — a force for peace.</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Peaceful Atom</p>
+    <p>Created by God'sable K Isaac</p>S
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
